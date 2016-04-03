@@ -14,8 +14,12 @@ body {
   margin-top: -10px;
 }
 
-.navbar-default{
+.main-navbar.navbar-default{
   background-color: #fff;
+}
+
+.navbar.playground-navbar {
+  margin-bottom: 0px;
 }
 
 .footer {
@@ -39,9 +43,17 @@ body {
 }
 
 .box-hearder {
+  position: relative;
   margin: -15px;
   padding: 15px;
   border-bottom: 1px solid #EEEEEE;
+}
+
+.box-header-logo {
+  max-height: 110px;
+}
+.box-header-logo.img-responsive {
+  margin: auto;
 }
 
 .controls {
@@ -51,5 +63,14 @@ body {
 }
 
 .playground {
-  min-height: 450px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  min-height: 400px;
+}
+
+canvas {
+  width: 100%;
+  height: 649px;;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
 }

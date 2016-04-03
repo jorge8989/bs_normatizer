@@ -12,7 +12,7 @@
     <script type="text/javascript" src="underscore-min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar main-navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -26,20 +26,59 @@
         <div class="row">
           <div class="col-md-12">
             <div class="box-hearder">
-              <h3>Bull Dog Security Normatizer
-                <br><small>normative distances between fire detector</small>
-              </h3>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <br>
+                  <h3>Bull Dog Security Normatizer
+                    <br><small>normative distances between fire detector</small>
+                  </h3>
+                </div>
+                <div class="hidden-xs col-sm-6 col-md-6 text-right">
+                  <img src="images/bs_logo_min.jpg" alt="Bull Dog Security Logo" 
+                  class="box-header-logo"/>
+                </div>
+              </div>
             </div>
             <div class="playground">
+              <nav class="navbar playground-navbar navbar-default">
+               <div class="container-fluid">
+                 <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" 
+                     data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" 
+                     aria-expanded="false">
+                     <span class="sr-only"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                   </button>
+                  </div>
+                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav">
+                       <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Image <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#" class="new-image">New</a></li>
+                          <li><a href="#">Save</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#" class="new-image">Clear</a></li>
+                        </ul>
+                      </li>
+                     </ul>
+                   </div>                   
+                 </div>
+                </nav>
+              <canvas id="canvas" width="1081" height="649"></canvas>
             </div>
             <div class="controls">
               <form class="form-inline">
               <div class="form-group">
                 <input id="width" name="width" type="number" class="form-control" placeholder="Width"/>
+              </div>
+              <div class="form-group">
                 <input id="height" name="height" type="number" class="form-control" placeholder="Height"/>
               </div>
               <div class="form-group">
-                <button class="btn btn-primary">generate</button>    
+                <button class="btn btn-primary generate">generate</button>    
               </div>
               </form>
             </div>
