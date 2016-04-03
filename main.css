@@ -1,0 +1,55 @@
+body {
+  background-color: #F1F1F1;
+}
+.box {
+  background-color: #fff;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.logo_min {
+  height: 40px;
+  margin-top: -10px;
+}
+
+.navbar-default{
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #014B56;
+  color: #DFF0D8;
+  padding: 15px;
+}
+
+.btn-primary {
+  color: #DFF0D8;
+  background-color: #014B56;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, 
+.btn-primary:focus, .btn-primary.focus {
+  background-color: #014B56;
+  color: #DFF0D8;
+}
+.btn-primary:active:focus {
+  background-color: #015865;
+}
+
+.box-hearder {
+  margin: -15px;
+  padding: 15px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.controls {
+  margin: -15px;
+  padding: 15px;
+  border-top: 1px solid #EEEEEE;
+}
+
+.playground {
+  min-height: 450px;
+}
